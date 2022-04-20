@@ -10,8 +10,8 @@ OpenBlimp is a open source packages to manufacture and build your custom blimp f
 
 ### Getting Started
 
-- OpenBlimp Overview
 - Blimp System Overview
+- Preparation
 
 ### Hardware
 

@@ -1,6 +1,15 @@
 theme: readthedocs # rtd-dropdown
 site_name: OpenBlimp
 nav:
-- Getting Started: Getting_Started.md
-- Hardware: Hardware.md
-- Software: Software.md
+- Getting Started: 
+    - Blimp System Overview: Blimp_system_overview.md
+    - Preparation: Preparation.md
+- Hardware: 
+    - Hardware Introduction: Hardware_intro.md
+    - Hardware Manufacture: Hardware_manufact.md
+    - Hardware Assembly: Hardware_assembly.md
+- Software: 
+    - Manual Control: Manual_control.md
+    - Autonomous Control: auto_control.md
+- Developer Tutorial:
+    - To be continue: To_be_continue.md
