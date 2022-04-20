@@ -1,5 +1,6 @@
 theme: readthedocs # rtd-dropdown
 site_name: OpenBlimp
 nav:
-- homepage: index.md
-- testpage: test.md
+- Getting Started: Getting_Started.md
+- Hardware: Hardware.md
+- Software: Software.md

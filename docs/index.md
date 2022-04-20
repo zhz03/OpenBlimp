@@ -1,23 +1,28 @@
 
 
-# Welcome!
+# Welcome to OpenBlimp website!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+OpenBlimp is a open source packages to manufacture and build your custom blimp from scratch.
 
-## 1 Commands
+[OpenBlimp source code on Github](https://github.com/zhz03/OpenBlimp)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Content
 
-## 2 Project layout
+### Getting Started
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- OpenBlimp Overview
+- Blimp System Overview
 
-### 2.1 ZZL
+### Hardware
 
-This is my first mkdocs website. --ZZL
+- Hardware Introduction
+- Hardware Manufacture
+- Hardware Assembly
+
+### Software
+
+- Manual control
+- Autonomous control
+
+### Developer Tutorial
+
