@@ -1,0 +1,5 @@
+theme: readthedocs # rtd-dropdown
+site_name: OpenBlimp
+nav:
+- homepage: index.md
+- testpage: test.md
