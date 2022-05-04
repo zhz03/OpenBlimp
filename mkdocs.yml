@@ -12,5 +12,9 @@ nav:
 - Software: 
     - Manual Control: Manual_control.md
     - Autonomous Control: auto_control.md
+- Demos:
+    - Sensors: Demo/Sensors.md
+    - Unit Test: Demo/Unit_tests.md
+    - Flying Tests: Demo/Flying_test.md 
 - Developer Tutorial:
     - To be continue: To_be_continue.md
