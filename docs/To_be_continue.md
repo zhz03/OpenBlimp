@@ -43,10 +43,10 @@ Tuesday 8:30pm Everyweek
 
 - Aaron’s Git repository for visual processing of green balloon (with final PyTorch code): [Aaron John Sabu / FORAY-Ball-Detection · GitLab (uclalemur.com)](https://git.uclalemur.com/aaronjs/foray-ball-detection/)
 
-- LEMUR_FPV_camera_blimp: https://github.com/zhz03/LEMUR_FPV_Blimp
+- [LEMUR_FPV_camera_blimp](https://github.com/zhz03/LEMUR_FPV_Blimp)
 
-- Using joystick to control multiple blimps: https://github.com/zhz03/Tutorial-Controlling-multiple-control-boards-through-game-controllers
+- [Using joystick to control multiple blimps](https://github.com/zhz03/Tutorial-Controlling-multiple-control-boards-through-game-controllers)
 
-- Ankur and engineers modified blimp control version in April competition: https://git.uclalemur.com/mehtank/blimp
+- [Ankur and engineers modified blimp control version in April competition](https://git.uclalemur.com/mehtank/blimp)
 
   
