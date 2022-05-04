@@ -30,7 +30,11 @@ There will be three different branches:
 
 ## Activate server locally
 
-MkDocs includs a built-in server to preview the current document locally.  Under the project directory, execute `mkdocs serve` to activate the built-in server. 
+MkDocs includs a built-in server to preview the current document locally.  Under the project directory, execute `mkdocs serve` to activate the built-in server:
+
+```
+mkdocs serve
+```
 
 ![](imgs/pic1.png)
 
@@ -53,6 +57,10 @@ After save this file, you should be able to see the effect immediately on your b
 ## Build locally
 
 To build your site, under your project directory. Open terminal and execute `mkdocs build` command as below:
+
+```
+mkdocs build
+```
 
 ![](imgs/pic5.png)
 
