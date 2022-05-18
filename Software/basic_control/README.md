@@ -1,12 +1,7 @@
 # 0_Main Function of Blimp
 
-//calibration of motors  couples with code
-//discuss each section of the code
-
 ## 1. CALIBRATION: Coupling the DC Motors, Motor Shield, and Code
-### The codes, the propellers of the blimp, and the motor number in the featherboard 
-### are all coupled together -- dependent to each other. It is highly recommended 
-### that the user of this project determines the direction of each motor and list them.
+### The codes, the propellers of the blimp, and the motor number in the featherboard are all coupled together -- dependent to each other. It is highly recommended that the user of this project determines the direction of each motor and list them.
 
 <br>
 
@@ -32,8 +27,7 @@
 | dir4                     | +    | backward                | -    | forward                 |
 
 
-### 3. Determine the combinations of each directions that will lead to UP, DOWN, LEFT, RIGHT
-### Calibration or Configuration of the blimp system:
+### 3. Determine the combinations of each directions that will lead to UP, DOWN, LEFT, RIGHT. Calibration or Configuration of the blimp system:
 | Direction | Motor_1 | Sign_1 | Motor_2 | Sign_2 |
 |-----------|---------|--------|---------|--------|
 | UP        | dir1    | -      | dir2    | +      |
