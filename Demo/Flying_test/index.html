@@ -7,23 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-  <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Manual Control - OpenBlimp</title>
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Flying Tests - OpenBlimp</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Manual Control";
-    var mkdocs_page_input_path = "Manual_control.md";
+    var mkdocs_page_name = "Flying Tests";
+    var mkdocs_page_input_path = "Demo/Flying_test.md";
     var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
@@ -36,9 +36,9 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> OpenBlimp</a>
+        <a href="../.." class="icon icon-home"> OpenBlimp</a>
         <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
@@ -54,11 +54,11 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../Blimp_system_overview/">Blimp System Overview</a>
+    <a class="" href="../../Blimp_system_overview/">Blimp System Overview</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../Preparation/">Preparation</a>
+    <a class="" href="../../Preparation/">Preparation</a>
                 </li>
     </ul>
 	    </li>
@@ -69,19 +69,19 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../Hardware_intro/">Hardware Introduction</a>
+    <a class="" href="../../Hardware_intro/">Hardware Introduction</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../Hardware_manufact/">Hardware Manufacture</a>
+    <a class="" href="../../Hardware_manufact/">Hardware Manufacture</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../Basic_assembly/">Basic Assembly</a>
+    <a class="" href="../../Basic_assembly/">Basic Assembly</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../Sensors/">Sensors</a>
+    <a class="" href="../../Sensors/">Sensors</a>
                 </li>
     </ul>
 	    </li>
@@ -90,19 +90,13 @@
 		
     <span class="caption-text">Software</span>
     <ul class="subnav">
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Manual Control</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#template">Template!</a></li>
-    
-
-    </ul>
+    <a class="" href="../../Manual_control/">Manual Control</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../auto_control/">Autonomous Control</a>
+    <a class="" href="../../auto_control/">Autonomous Control</a>
                 </li>
     </ul>
 	    </li>
@@ -113,15 +107,21 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../Demo/Sensors/">Sensors</a>
+    <a class="" href="../Sensors/">Sensors</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../Demo/Unit_tests/">Unit Test</a>
+    <a class="" href="../Unit_tests/">Unit Test</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../Demo/Flying_test/">Flying Tests</a>
+    <a class="current" href="./">Flying Tests</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#demo-flying-tests">DEMO: Flying tests</a></li>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -132,7 +132,7 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../To_be_continue/">To be continue</a>
+    <a class="" href="../../To_be_continue/">To be continue</a>
                 </li>
     </ul>
 	    </li>
@@ -147,7 +147,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">OpenBlimp</a>
+        <a href="../..">OpenBlimp</a>
       </nav>
 
       
@@ -155,15 +155,15 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="..">Docs</a> &raquo;</li>
+    <li><a href="../..">Docs</a> &raquo;</li>
     
       
         
-          <li>Software &raquo;</li>
+          <li>Demos &raquo;</li>
         
       
     
-    <li>Manual Control</li>
+    <li>Flying Tests</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -173,7 +173,8 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="template">Template!</h2>
+                <h2 id="demo-flying-tests">DEMO: Flying tests</h2>
+<p>This is a page to show all our flying tests. </p>
               
             </div>
           </div>
@@ -181,10 +182,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../auto_control/" class="btn btn-neutral float-right" title="Autonomous Control">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../To_be_continue/" class="btn btn-neutral float-right" title="To be continue">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../Sensors/" class="btn btn-neutral" title="Sensors"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Unit_tests/" class="btn btn-neutral" title="Unit Test"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -210,16 +211,16 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../Sensors/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../Unit_tests/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../auto_control/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../To_be_continue/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
 
 </body>
 </html>
