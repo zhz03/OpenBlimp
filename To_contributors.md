@@ -65,3 +65,15 @@ mkdocs build
 ![](imgs/pic5.png)
 
 After this step, you should be able to see a `site` directory under your project directory, and it contains all your `html` files. 
+
+## Deploy your website
+
+To deploy your website to the git, open terminal and run the following command:
+
+```shell
+mkdocs gh-deploy
+```
+
+And you should see the following:
+
+![](imgs/mkdocs_deploy.png)
