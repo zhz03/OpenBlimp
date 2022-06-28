@@ -14,4 +14,4 @@ The post-processing of manufacturing a custom Mylar balloon:
 
 ### 2 Gondola and 3D printed support
 
-![](../Hardware/Images/fig_3.jpeg)
+![](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/Hardware/Images/fig_3.jpeg)
