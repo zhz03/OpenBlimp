@@ -12,6 +12,17 @@ Installing MkDocs requires Python and Python package manager pip, if you already
 pip install mkdocs
 ```
 
+> Note:
+>
+> If you are using Windows, some of the above commands may not work out-of-the-box.
+>
+> A quick solution may be to preface every Python command with `python -m` like this:
+>
+> ```powershell
+> python -m pip install mkdocs
+> python -m mkdocs
+> ```
+
 ## How to git
 
 There will be three different branches: 
