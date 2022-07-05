@@ -1,0 +1,16 @@
+matplotlib
+numpy
+opencv-python
+websocket-client
+pygame
+pyserial
+opencv-python
+pupil-apriltags
+detecto==1.2.1
+easydict
+gdown
+mkdocs
+setuptools
+wheel
+twine
+
