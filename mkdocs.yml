@@ -4,6 +4,14 @@ nav:
 - Getting Started: 
     - Blimp System Overview: Blimp_system_overview.md
     - Preparation: Preparation.md
+    - Quick Start: Quick_start.md
+- User Tutorial:
+    - Logic Flow: logic_flow.md
+    - Hardware mapping: HardwareMapping.md
+    - User interface: UserInterface.md
+- Developer Tutorial:
+    - Capability extension: Capability.md
+    - Algorithm customization: Algo_custom.md
 - Hardware: 
     - Hardware Introduction: Hardware_intro.md
     - Hardware Manufacture: Hardware_manufact.md
@@ -16,5 +24,7 @@ nav:
     - Sensors: Demo/Sensors.md
     - Unit Test: Demo/Unit_tests.md
     - Flying Tests: Demo/Flying_test.md 
-- Developer Tutorial:
+- Additional Information:
+    - About Us: AboutUs.md
+    - Previous resources: resources.md
     - To be continue: To_be_continue.md

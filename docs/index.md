@@ -49,6 +49,5 @@ OpenBlimp is a work in progress. Many features on the roadmap are being continuo
 ### Additional Information
 
 - About Us
-
-  ​
+- Previous resources
 
