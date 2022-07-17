@@ -10,12 +10,12 @@ Dr. Ankur Mehta
 
 ## Core Developers
 
-Zhaoliang Zheng
+**Zhaoliang Zheng**
 
 - **Project lead** and OpenBlimp Architect
 - [Homepage](https://zhz503.github.io/)
 
-Kamil 
+**Kamil** 
 
 - Auto control and OpenMV cam development
 
@@ -23,7 +23,7 @@ Jillian Naldrien Pantig
 
 - Auto control and system testing
 
-Zhiyin Li
+**Zhiyin Li**
 
 - System testing and blimp manufacturing
 
@@ -31,15 +31,15 @@ Warnakulasuriya Shelard R. Fernando
 
 - Electrical system and system testing
 
-Aaron John Sabu
+**Aaron John Sabu**
 
 - Detection algorithms
 
-Parth Agrawal
+**Parth Agrawal**
 
 - Manual control and detection algorithms
 
-Tam Hieu Nguyen
+**Tam Hieu Nguyen**
 
 - Blimp manufacturing
 
