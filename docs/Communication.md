@@ -1,12 +1,12 @@
 
 
-# Software
+## Communication network
 
-## Communication
+For either remotely control your designed blimp or to communicate all the sensors on the blimp and transmit your signal back to your base station, communication network is critical in blimp development.
 
-## Manual control
+Here we provide some different solutions:
 
-## Autonomous control
+
 
 
 

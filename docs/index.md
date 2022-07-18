@@ -10,6 +10,8 @@ OpenBlimp is a work in progress. Many features on the roadmap are being continuo
 
 [OpenBlimp source code on Github](https://github.com/zhz03/OpenBlimp)
 
+![one team picture is required here]()
+
 ## Content
 
 ### Getting Started
