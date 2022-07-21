@@ -1,10 +1,12 @@
 
 
-# Software
+# Algorithm Customization
 
-## Manual control
+## Communication
 
-## Autonomous control
+## Sensing algorithms
+
+## Control algorithms
 
 
 

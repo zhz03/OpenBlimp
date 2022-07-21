@@ -31,6 +31,31 @@ pip install -r requirements.txt
 ## Code Structure
 
 ```
-
+root
+├───docs
+│   ├───Demo
+│   └───javascripts
+├───Hardware
+│   ├───3d_design
+│   │   └───origami structure
+│   ├───circuit_plot_doc
+│   └───Images
+│       ├───assembly
+│       ├───cases
+│       ├───motor_propellers
+│       ├───prepare
+│       └───sensors
+├───imgs
+└───openblimp
+    ├───auto_control
+    ├───basic_control
+    ├───Images
+    │   └───communication
+    └───manual_control
+        └───arduino_code
 ```
 
+Note:
+
+- `Hardware` directory contains all the hardware files like: 3D design files, hardware images, other hardware related files
+- `openblimp` directory contains all the software files and code. 
