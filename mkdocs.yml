@@ -17,9 +17,11 @@ nav:
 - User Tutorial:
     - Logic Flow: logic_flow.md
     - Design Principle: Design_principle.md
-    - Hardware mapping: HardwareMapping.md
     - User interface: UserInterface.md
+    - Hardware mapping: HardwareMapping.md
 - Developer Tutorial:
+    - Development logic: Development_logic.md
+    - Communication: Communication.md
     - Capability extension: Capability.md
     - Algorithm customization: Algo_custom.md
 - Hardware: 

@@ -4,7 +4,7 @@
 
 To build your own blimp, you need to follow the logic flow below: 
 
-![Here requires a figure]()
+![](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/imgs/logic%20flow.png)
 
 Note: 
 

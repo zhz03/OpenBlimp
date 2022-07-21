@@ -17,7 +17,11 @@ The purchase links are shown below:
 
 ### For DIY 
 
-For manufacturing blimp envelop, please check this [link]()
+To DIY your own custom shape balloon envelop, we also recommend using Mylar as materials. 
+
+To purchase Mylar, we recommend this [Mylar sheet](http://film.fluffyscarsdale.com/home.html)
+
+For manufacturing blimp envelop, please check [Hardware manufacture]()
 
 ## 2 Propulsion system
 
@@ -32,7 +36,7 @@ Here are some examples (different DC motors and propellers combinations):
 
 
 
-![motor_propellers_1](..\Hardware\Images\motor_propellers\motor_propellers_1.png)
+![motor_propellers_1](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/Hardware/Images/motor_propellers/motor_propellers_1.png)
 
 As listed above, the propellers should be compatible with your motor.
 
