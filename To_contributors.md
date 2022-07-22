@@ -12,6 +12,17 @@ Installing MkDocs requires Python and Python package manager pip, if you already
 pip install mkdocs
 ```
 
+> Note:
+>
+> If you are using Windows, some of the above commands may not work out-of-the-box.
+>
+> A quick solution may be to preface every Python command with `python -m` like this:
+>
+> ```powershell
+> python -m pip install mkdocs
+> python -m mkdocs
+> ```
+
 ## How to git
 
 There will be three different branches: 
@@ -65,3 +76,15 @@ mkdocs build
 ![](imgs/pic5.png)
 
 After this step, you should be able to see a `site` directory under your project directory, and it contains all your `html` files. 
+
+## Deploy your website
+
+To deploy your website to the git, open terminal and run the following command:
+
+```shell
+mkdocs gh-deploy
+```
+
+And you should see the following:
+
+![](imgs/mkdocs_deploy.png)

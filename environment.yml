@@ -7,5 +7,6 @@ dependencies:
   - pip:
     - numpy
     - mkdocs
+    - pymdown-extensions
 
 

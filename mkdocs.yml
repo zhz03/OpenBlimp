@@ -1,9 +1,29 @@
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  
 theme: readthedocs # rtd-dropdown
 site_name: OpenBlimp
 nav:
 - Getting Started: 
     - Blimp System Overview: Blimp_system_overview.md
     - Preparation: Preparation.md
+    - Quick Start: Quick_start.md
+- User Tutorial:
+    - Logic Flow: logic_flow.md
+    - Design Principle: Design_principle.md
+    - User interface: UserInterface.md
+    - Hardware mapping: HardwareMapping.md
+- Developer Tutorial:
+    - Development logic: Development_logic.md
+    - Communication: Communication.md
+    - Capability extension: Capability.md
+    - Algorithm customization: Algo_custom.md
 - Hardware: 
     - Hardware Introduction: Hardware_intro.md
     - Hardware Manufacture: Hardware_manufact.md
@@ -13,8 +33,9 @@ nav:
     - Manual Control: Manual_control.md
     - Autonomous Control: auto_control.md
 - Demos:
-    - Sensors: Demo/Sensors.md
     - Unit Test: Demo/Unit_tests.md
     - Flying Tests: Demo/Flying_test.md 
-- Developer Tutorial:
-    - To be continue: To_be_continue.md
+- Additional Information:
+    - About Us: AboutUs.md
+    - Previous resources: resources.md
+    - How to contribute: How_to_contribute.md
