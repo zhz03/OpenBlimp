@@ -21,6 +21,8 @@ To DIY your own custom shape balloon envelop, we also recommend using Mylar as m
 
 To purchase Mylar, we recommend this [Mylar sheet](http://film.fluffyscarsdale.com/home.html)
 
+![](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/Hardware/Images/prepare/mylar.jpg)
+
 For manufacturing blimp envelop, please check [Hardware manufacture]()
 
 ## 2 Propulsion system

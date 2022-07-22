@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/imgs/OpenBlimp_logo.jpg)
+
 # Blimp System Overview
 
 For those of you who wants to build and manipulate your own blimp, this will be a best place for you to start!  

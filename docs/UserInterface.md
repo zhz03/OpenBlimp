@@ -12,17 +12,15 @@ Our user interface is using Blynk app for any users who have cellphone to downlo
 
 To download Blynk mobile app, please check their [website](https://docs.blynk.io/en/downloads/blynk-apps-for-ios-and-android)
 
-![blynk_apps]()
+![blynk_apps](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/imgs/blynk_apps.png)
 
 ## Blimp control interface
 
 Our recommended Blynk interface is shown as below:
 
-![]()
+![](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/imgs/interface.jpg?resize==50)
 
 You can also customize your own interface as long as you have the following functionality:
-
-![]()
 
 - **Control panel**: your control panel should include two joystick and one slider to give you the ability to control motion primitives(horizontal, vertical and rotation) and all motor propellers speed.
 

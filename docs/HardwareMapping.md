@@ -4,7 +4,7 @@
 
 For the blimp system, one important aspect to notice is the mapping between your control and hardware. We design a user interface for normal user to easily control blimps they design. However, to control blimp exactly as expected, users need to build up the correct mapping between control and propulsion system of blimps. To be more specific, what's the right wiring and control mapping as shown below:
 
-![](../imgs/mapping.jpg)
+![](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/imgs/mapping.jpg)
 
 For example, you want to build a blimp that has 4 motors+propellers output, two specific motors can control the horizontal motion of your blimp and the other two motors need to handle the vertical motion while the horizontal motors should also make your blimp rotate. How do you match your motors with your joystick controller if you need only one joystick to control both horizontal motion and the other joystick to control vertical motion.
 
@@ -32,5 +32,5 @@ As we introduced before, we choose Blynk APP as the control interface since itâ€
 
 Here are two case study of using "error and trial" method to figure out the correct configuration commands:
 
-![]()
+![](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/imgs/table1.png)
 

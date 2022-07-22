@@ -1,5 +1,7 @@
 
 
+![](https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/imgs/OpenBlimp_logo.jpg)
+
 # Welcome to OpenBlimp website!
 
 Welcome to OpenBlimp's documentation. **OpenBlimp** is a open source packages to manufacture, build and control your custom blimp from scratch. 
@@ -9,8 +11,6 @@ For normal users, it's easy to build your manual control system by following the
 OpenBlimp is a work in progress. Many features on the roadmap are being continuously developed. We welcome your contribution and please visit our Github repo for latest release. 
 
 [OpenBlimp source code on Github](https://github.com/zhz03/OpenBlimp)
-
-![one team picture is required here]()
 
 ## Content
 
