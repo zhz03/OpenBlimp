@@ -1,205 +1,191 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-  <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Unit Test - OpenBlimp</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "Unit Test";
-    var mkdocs_page_input_path = "Demo/Unit_tests.md";
-    var mkdocs_page_url = null;
-  </script>
-  
-  <script src="../../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
-  
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Unit Test - OpenBlimp</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Unit Test";
+        var mkdocs_page_input_path = "Demo\\Unit_tests.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
 </head>
 
 <body class="wy-body-for-nav" role="document">
 
   <div class="wy-grid-for-nav">
-
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="../.." class="icon icon-home"> OpenBlimp</a>
-        <div role="search">
+          <a href="../.." class="icon icon-home"> OpenBlimp
+        </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Getting Started</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../Blimp_system_overview/">Blimp System Overview</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../Preparation/">Preparation</a>
-                </li>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Blimp_system_overview/">Blimp System Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Preparation/">Preparation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Quick_start/">Quick Start</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">User Tutorial</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../logic_flow/">Logic Flow</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Design_principle/">Design Principle</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../UserInterface/">User interface</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../HardwareMapping/">Hardware mapping</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Developer Tutorial</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Development_logic/">Development logic</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Communication/">Communication</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Capability/">Capability extension</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Algo_custom/">Algorithm customization</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hardware</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Hardware_intro/">Hardware Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Hardware_manufact/">Hardware Manufacture</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Basic_assembly/">Basic Assembly</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Sensors/">Sensors</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Software</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Manual_control/">Manual Control</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../auto_control/">Autonomous Control</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Demos</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Unit Test</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#test-two-esp32-cam-running-at-the-same-time">Test two esp32-cam running at the same time</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#configure-the-motor-setup-using-input-commands">Configure the motor setup using input commands</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#esp32-cam-detecting-green-ball">ESP32 Cam detecting green ball</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#two-way-communication-between-two-esp32-chip">Two-way communication between two ESP32 chip</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#test-live-video-from-esp32cam-with-ml-color-detection-and-color-threshold-methods">Test live video from ESP32CAM  with ML color detection and color threshold methods</a>
+    </li>
     </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Hardware</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../Hardware_intro/">Hardware Introduction</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../Hardware_manufact/">Hardware Manufacture</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../Basic_assembly/">Basic Assembly</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../Sensors/">Sensors</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Software</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../Manual_control/">Manual Control</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../auto_control/">Autonomous Control</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Demos</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../Sensors/">Sensors</a>
-                </li>
-                <li class=" current">
-                    
-    <a class="current" href="./">Unit Test</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#demo-unit-tests">DEMO: Unit tests</a></li>
-    
-
-    </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../Flying_test/">Flying Tests</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Developer Tutorial</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../To_be_continue/">To be continue</a>
-                </li>
-    </ul>
-	    </li>
-          
-        </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Flying_test/">Flying Tests</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Information</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../AboutUs/">About Us</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../resources/">Previous resources</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../How_to_contribute/">How to contribute</a>
+                  </li>
+              </ul>
       </div>
-      &nbsp;
+    </div>
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../..">OpenBlimp</a>
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">OpenBlimp</a>
+        
       </nav>
-
-      
       <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../..">Docs</a> &raquo;</li>
-    
-      
-        
-          <li>Demos &raquo;</li>
-        
-      
-    
-    <li>Unit Test</li>
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Demos &raquo;</li><li>Unit Test</li>
     <li class="wy-breadcrumbs-aside">
-      
     </li>
   </ul>
   <hr/>
 </div>
-          <div role="main">
-            <div class="section">
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
               
-                <h2 id="demo-unit-tests">DEMO: Unit tests</h2>
-<p>This is a page to show our unit tests.</p>
+                <h1 id="demo-unit-tests">DEMO: Unit tests</h1>
+<h2 id="test-two-esp32-cam-running-at-the-same-time">Test two esp32-cam running at the same time</h2>
+<p>The first line are the individual tests for a single esp32 cam connecting to the router. The second line is two esp32-cam connecting to the router and running at the same time: </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ULT9MRGynQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="configure-the-motor-setup-using-input-commands">Configure the motor setup using input commands</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C4jdIIRoYjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="esp32-cam-detecting-green-ball">ESP32 Cam detecting green ball</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f6BU70757WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="two-way-communication-between-two-esp32-chip">Two-way communication between two ESP32 chip</h2>
+<p>We finished the two-way wifi communication between two esp32. </p>
+<p>Based on our experiment two days ago, in order to easily and quickly debug our PID paramters. We need to find a good way to tune those parameters and receive the information from the blimp for debugging purposes.  </p>
+<p>In the following video, we have two esp32 feather boards. The left one is the master board and the right one is the slave board. We setup a two-way communication through peer-to-peer WiFi. </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FJa8eMdKWiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>How to use this? </p>
+<p>(1) Debugging purpose via sending back the infomation</p>
+<p>(2) Tunning paramters via sending the commands to the blimp</p>
+<p>(3) Transmit ML algorithm output to the slave board</p>
+<h2 id="test-live-video-from-esp32cam-with-ml-color-detection-and-color-threshold-methods">Test live video from ESP32CAM  with ML color detection and color threshold methods</h2>
+<p>The color threshold algorithm was tested on the live video from ESP32-cam: </p>
+<p>This is the demo with low resolution: </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XkQnzLV6VKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>This is the demo with high resolution: </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZHIAaimO8YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               
             </div>
-          </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../auto_control/" class="btn btn-neutral float-left" title="Autonomous Control"><span class="icon icon-circle-arrow-left"></span> Previous</a>
         <a href="../Flying_test/" class="btn btn-neutral float-right" title="Flying Tests">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="../Sensors/" class="btn btn-neutral" title="Sensors"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <!-- Copyright etc -->
-    
   </div>
 
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-      
+          
         </div>
       </div>
 
@@ -207,20 +193,29 @@
 
   </div>
 
-  <div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-        <span><a href="../Sensors/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../Flying_test/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../auto_control/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Flying_test/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
 </div>
     <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
     <script src="../../js/theme.js" defer></script>
+      <script src="../../javascripts/mathjax.js" defer></script>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
       <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
 
 </body>
 </html>
