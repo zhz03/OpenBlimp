@@ -4,10 +4,10 @@ For developer who wants to develop your own blimp using our OpenBlimp guideline 
 
 - Development guideline
 - Overall development framework
-- Communication method
 - Capability extension
 - Algorithm customization
 
 ## Development guideline
 
-Blimp development is a complicated work which is highly hardware-software integrated. 
+Blimp development is a complicated work which is highly hardware-software integrated. Thus, it's hard to debug if each part of your system is not fully verified and tested. 
+

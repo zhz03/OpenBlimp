@@ -1,6 +1,6 @@
 # Hardware Preparation
 
-## 1 Balloon Envelop 
+## 1 Balloon Envelope 
 
 ### For off-the-shelf blimp
 
@@ -8,7 +8,7 @@ To use off-the-shelf blimp, we recommend several options that are
 
 ​	(1) Enough payload capability 
 
-​	(2)Safe and reliable envelop 
+​	(2)Safe and reliable envelope 
 
 The purchase links are shown below:
 
@@ -17,7 +17,7 @@ The purchase links are shown below:
 
 ### For DIY 
 
-To DIY your own custom shape balloon envelop, we also recommend using Mylar as materials. 
+To DIY your own custom shape balloon envelope, we also recommend using Mylar as materials. 
 
 To purchase Mylar, we recommend this [Mylar sheet](http://film.fluffyscarsdale.com/home.html)
 

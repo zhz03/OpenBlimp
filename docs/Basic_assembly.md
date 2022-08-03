@@ -12,7 +12,7 @@ Here is one example of wiring all electronics together:
 
 ## Overall Assembly
 
-
+[Feather board ESP32 assembly](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/assembly)
 
 
 
