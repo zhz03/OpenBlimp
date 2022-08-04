@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>DEMO: Sensors - OpenBlimp</title>
+    <title>Capability extension - OpenBlimp</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "DEMO: Sensors";
-        var mkdocs_page_input_path = "Demo\\Sensors.md";
+        var mkdocs_page_name = "Capability extension";
+        var mkdocs_page_input_path = "developer_tutorial\\Capability.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -69,12 +69,36 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Developer Tutorial</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../developer_tutorial/Development_logic/">Development logic</a>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../Development_logic/">Development logic</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../developer_tutorial/Capability/">Capability extension</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Capability extension</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#shape-extension">Shape extension</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sensing-module-extension">Sensing module extension</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#camera">Camera</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lidar">Lidar</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ultrasonic">Ultrasonic</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#control-module-extension">Control module extension</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#manual-control">Manual control</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#code-structure">Code structure</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#autonomous-control">Autonomous control</a>
+    </li>
+    </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../developer_tutorial/Algo_custom/">Algorithm customization</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Algo_custom/">Algorithm customization</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Hardware</span></p>
@@ -97,9 +121,9 @@
               </ul>
               <p class="caption"><span class="caption-text">Demos</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Unit_tests/">Unit Test</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Demo/Unit_tests/">Unit Test</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../Flying_test/">Flying Tests</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Demo/Flying_test/">Flying Tests</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Additional Information</span></p>
@@ -124,7 +148,8 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>DEMO: Sensors</li>
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Developer Tutorial &raquo;</li><li>Capability extension</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -134,10 +159,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="demo-sensors">DEMO: Sensors</h1>
+                <h1 id="capability-extension">Capability extension</h1>
+<h2 id="shape-extension">Shape extension</h2>
+<p>For users who wants to develop your own shape of blimps, you need to make different 2D shapes for DIY Mylar Envelope. Here, we provide some ideas of how to make different balloon shape:</p>
+<p><img alt="2d &gt; 3d transform" src="" /></p>
+<h2 id="sensing-module-extension">Sensing module extension</h2>
+<h3 id="camera">Camera</h3>
+<p>Visual sensing if the main sensing method in our OpenBlimp framework. We have explored lots of embedded cameras modules like  <a href="">FPV Cam</a>,<a href="">ESP32 Cam</a>, <a href="">OpenMV Cam</a>, <a href="">Esp EYE</a>,<a href="">Neloca Cam</a>. </p>
+<p>Since we provide different type of cameras, it would be great to pick the camera based on users needs. However, escept for the FPV cam, all the other cameras requires to upload a program to its on-board-chip before using these cameras. </p>
+<h3 id="lidar">Lidar</h3>
+<p>Lidar is also a very useful distance sensor for blimp. By using control board we provided, Lidar sensor can easily be extended to our current setup. The Lidar sensor that we use is <a href="">hsd</a> </p>
+<h3 id="ultrasonic">Ultrasonic</h3>
+<p>Ultrasonic sensor is another distance sensor for blimp. </p>
+<h2 id="control-module-extension">Control module extension</h2>
+<h2 id="manual-control">Manual control</h2>
+<h3 id="code-structure">Code structure</h3>
+<pre><code class="language-bash">├───base_station
+│   ├───ball_detection
+│   │   ├───distance-detection-torch
+│   │   └───model_weights
+│   ├───logs
+│   └───pid
+└───feather_board
+</code></pre>
+<h2 id="autonomous-control">Autonomous control</h2>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Development_logic/" class="btn btn-neutral float-left" title="Development logic"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Algo_custom/" class="btn btn-neutral float-right" title="Algorithm customization">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -159,6 +211,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../Development_logic/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Algo_custom/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

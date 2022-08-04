@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>DEMO: Sensors - OpenBlimp</title>
+    <title>Build Electronics - OpenBlimp</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "DEMO: Sensors";
-        var mkdocs_page_input_path = "Demo\\Sensors.md";
+        var mkdocs_page_name = "Build Electronics";
+        var mkdocs_page_input_path = "User_tutorial\\eletronics.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -50,22 +50,34 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">User Tutorial</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/logic_flow/">Logic Flow</a>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../logic_flow/">Logic Flow</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/Design_principle/">Design Principle</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Design_principle/">Design Principle</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/build_blimp/">Build Blimp</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../build_blimp/">Build Blimp</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/eletronics/">Build Electronics</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Build Electronics</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#control-board">Control board</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#motor-driver">Motor driver</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#motors-propellers">Motors + propellers</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#electronics-assembly">Electronics Assembly</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#overall-assembly">Overall Assembly</a>
+    </li>
+    </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/Communication/">Communication</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Communication/">Communication</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/Blimp_code_setup/">Blimp Code Setup</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Blimp_code_setup/">Blimp Code Setup</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/UserInterface/">User interface</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../UserInterface/">User interface</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/HardwareMapping/">Hardware mapping</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../HardwareMapping/">Hardware mapping</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Developer Tutorial</span></p>
@@ -97,9 +109,9 @@
               </ul>
               <p class="caption"><span class="caption-text">Demos</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Unit_tests/">Unit Test</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Demo/Unit_tests/">Unit Test</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../Flying_test/">Flying Tests</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Demo/Flying_test/">Flying Tests</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Additional Information</span></p>
@@ -124,7 +136,8 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>DEMO: Sensors</li>
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>User Tutorial &raquo;</li><li>Build Electronics</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -134,10 +147,77 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="demo-sensors">DEMO: Sensors</h1>
+                <h1 id="build-your-system-hardware">Build Your System Hardware</h1>
+<p>In this chapter, we will talk about system hardware in details, the overall system hardware consists following part as shown in the picture: </p>
+<p><img alt="" src="https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/Hardware/Images/assembly/design_framework.jpg" /></p>
+<p>Let's talk about the most critical part first: Electronics system.</p>
+<p>Electronics system is very important to a blimp. The blimp electronics system oftentimes is consist of following parts as shown below:</p>
+<ul>
+<li>Control board</li>
+<li>Motor diver</li>
+<li>Motors + propellers</li>
+<li>Li-po Battery</li>
+<li>Other sensors (like Camera, lidar sensors, ultrasonic sensors). Sensor are not necessary for you blimp, it really depends on your needs. </li>
+</ul>
+<p>As other parts of your blimp, you may also need:</p>
+<ul>
+<li>Payloads: </li>
+</ul>
+<p>This is to help balancing your blimp if <span class="arithmatex">\(F_B &gt; m_{total}\)</span></p>
+<ul>
+<li>Fins and other surface: </li>
+</ul>
+<p>This is for stabilize your blimp. We will not go into the details here, there are so many aerodynamics knowledge. </p>
+<p>Next, I will talk about each part of these in order to help you understand why your blimp electronics system needs to connect this way and how do they work as a whole team.</p>
+<h2 id="control-board">Control board</h2>
+<p>Control board is like the brain of your blimp, it process data, calculate things, distribute powers and send all your commands to different parts.</p>
+<p>We explored several control board solutions, all of these controllers should satisfy:</p>
+<ul>
+<li>Light enough to put it on your blimp</li>
+<li>Able to process the basic control commands </li>
+<li>Has communication devices on it</li>
+<li>Enough pinout for wire connection</li>
+</ul>
+<p>Our control board include: </p>
+<ul>
+<li>NodeMCU ESP8266</li>
+<li>Raspberry Pi zero W</li>
+<li>NodeMCU ESP32</li>
+<li>Featherboard ESP32</li>
+</ul>
+<h2 id="motor-driver">Motor driver</h2>
+<p>Motor driver is to control and power your motors. We also explored three different motor driver:</p>
+<ul>
+<li>tb6612</li>
+<li>pololu driver board</li>
+<li>Featherboard motor shield</li>
+</ul>
+<h2 id="motors-propellers">Motors + propellers</h2>
+<p>Motors propellers the power source to let you manipulate your blimp.</p>
+<p>We have explored two different types of motors:</p>
+<ul>
+<li>DC motors </li>
+<li>Brushless motors</li>
+</ul>
+<p>As for the propellers, we also explored different size of propellers, as long as they are compatible with your motors, then it should be enough.</p>
+<p>As for brushless motors, you also need esc to power it. </p>
+<h2 id="electronics-assembly">Electronics Assembly</h2>
+<p>There are different types of electronics combinations:</p>
+<ul>
+<li>NodeMCU ESP8266 + tb6612 * 2 + DC motor propellers</li>
+<li>​</li>
+</ul>
+<p>Here is one example of wiring all electronics together:</p>
+<p><img alt="" src="https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/Hardware/circuit_plot_doc/manualCtl_NodeMCU.png" /></p>
+<h2 id="overall-assembly">Overall Assembly</h2>
+<p><a href="https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/assembly">Feather board ESP32 assembly</a></p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../build_blimp/" class="btn btn-neutral float-left" title="Build Blimp"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Communication/" class="btn btn-neutral float-right" title="Communication">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -159,6 +239,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../build_blimp/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Communication/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>DEMO: Sensors - OpenBlimp</title>
+    <title>Blimp System Overview - OpenBlimp</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "DEMO: Sensors";
-        var mkdocs_page_input_path = "Demo\\Sensors.md";
+        var mkdocs_page_name = "Blimp System Overview";
+        var mkdocs_page_input_path = "getting_started\\Blimp_system_overview.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -41,12 +41,26 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption"><span class="caption-text">Getting Started</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../getting_started/Blimp_system_overview/">Blimp System Overview</a>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Blimp System Overview</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#blimp-introduction">Blimp introduction</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#advantages-of-blimp">Advantages of blimp</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#disadvantages-of-blimp">Disadvantages of blimp</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#why-openblimp">Why OpenBlimp?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#reference">Reference</a>
+    </li>
+    </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../getting_started/Preparation/">Preparation</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Preparation/">Preparation</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../getting_started/Quick_start/">Quick Start</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Quick_start/">Quick Start</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">User Tutorial</span></p>
@@ -97,9 +111,9 @@
               </ul>
               <p class="caption"><span class="caption-text">Demos</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Unit_tests/">Unit Test</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Demo/Unit_tests/">Unit Test</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../Flying_test/">Flying Tests</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Demo/Flying_test/">Flying Tests</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Additional Information</span></p>
@@ -124,7 +138,8 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>DEMO: Sensors</li>
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Getting Started &raquo;</li><li>Blimp System Overview</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -134,10 +149,57 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="demo-sensors">DEMO: Sensors</h1>
+                <p><img alt="" src="https://raw.githubusercontent.com/zhz03/OpenBlimp/develop/imgs/OpenBlimp_logo.jpg" /></p>
+<h1 id="blimp-system-overview">Blimp System Overview</h1>
+<p>For those of you who wants to build and manipulate your own blimp, this will be a best place for you to start!  </p>
+<h2 id="blimp-introduction">Blimp introduction</h2>
+<p>Due to their ability to neutrally float in the air, lighter-than-air vehicles (LTAVs) had been widely studied and used as research and military platforms for aerial robotics over the last century. As a branch of LTAVs, the indoor airship is gaining increasing attention due to its promising potential for many applications [1]. In the past 20 years, indoor blimps have been developed for infrastructure inspection [2], environmental data collection [3], indoor localization and mapping [4], education and research platforms [5], vision-based human-robot interaction [6], and other activities. While these tasks may also be conducted using unmanned aerial vehicles (UAVs) such as quadrotors, their flight duration time is generally only between 20 to 30 minutes, restricted by the power required for them to hover in air. Quadrotors can also cause safety concerns when they operate in indoor environments with humans due to their relatively high operating speed and high-speed rotating blades.[7]</p>
+<h3 id="advantages-of-blimp">Advantages of blimp</h3>
+<p>There are lots of advantages of using blimps, for example:</p>
+<ul>
+<li>Long flight time and operation duration in the air</li>
+<li>Safer to environment and human</li>
+<li>Energy efficiency</li>
+</ul>
+<h3 id="disadvantages-of-blimp">Disadvantages of blimp</h3>
+<p>There are also some disadvantages of blimps, for example:</p>
+<ul>
+<li>Not intuitive to control blimp in the air</li>
+<li>It's hard to stay at one location in the air</li>
+</ul>
+<h2 id="why-openblimp">Why OpenBlimp?</h2>
+<p>With Openblimp, users should have the capability to:</p>
+<ul>
+<li>Create their own blimp envelope</li>
+<li>Create their own customized blimp with different shape</li>
+<li>Create their own controllers</li>
+<li>Create different customized functionalities</li>
+</ul>
+<h2 id="reference">Reference</h2>
+<p>[1] Yasmina Bestaoui Sebbane. Lighter than air robots: Guidance and
+control of autonomous airships, volume 58. Springer Science &amp;
+Business Media, 2011.</p>
+<p>[2] Yoshihiro Nitta, Shinsuke Inai, Kunio Matsumura, Masami Ishida,
+Toshio Onai, and Akira Nishitani. The visual inspection methodology
+for ceiling utilizing the blimp. Procedia Engineering, 188:256–262,
+2017.</p>
+<p>[3] George Kantor, David Wettergreen, James P Ostrowski, and Sanjiv
+Singh. Collection of environmental data from an airship platform.
+In Sensor Fusion and Decentralized Control in Robotic Systems IV,
+volume 4571, pages 76–83. International Society for Optics and
+Photonics, 2001.</p>
+<p>[4] J ̈org M ̈uller and Wolfram Burgard. Efficient probabilistic localization for autonomous indoor airships using sonar, air flow, and imu sensors. Advanced Robotics, 27(9):711–724, 2013.</p>
+<p>[5] Gal Gorjup and Minas Liarokapis. A low-cost, open-source, robotic
+airship for education and research. IEEE Access, 8:70713–70721,
+2020.</p>
+<p>[6] N. Yao, E. Anaya, Q. Tao, S. Cho, H. Zheng, and F. Zhang. Monocular vision-based human following on miniature robotic blimp. In 2017 IEEE International Conference on Robotics and Automation (ICRA), pages 3244–3249, 2017.</p>
+<p>[7] Zheng, Zhaoliang, Jiahao Li, Parth Agrawal, Zhao Lei, Aaron John-Sabu, and Ankur Mehta. "User Based Design and Evaluation Pipelineo for Indoor Airships." <em>arXiv preprint arXiv:2110.09748</em> (2021).</p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Preparation/" class="btn btn-neutral float-right" title="Preparation">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -159,6 +221,8 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+    
+      <span><a href="../Preparation/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

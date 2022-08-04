@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>DEMO: Sensors - OpenBlimp</title>
+    <title>Build Blimp - OpenBlimp</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "DEMO: Sensors";
-        var mkdocs_page_input_path = "Demo\\Sensors.md";
+        var mkdocs_page_name = "Build Blimp";
+        var mkdocs_page_input_path = "User_tutorial\\build_blimp.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -50,22 +50,32 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">User Tutorial</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/logic_flow/">Logic Flow</a>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../logic_flow/">Logic Flow</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/Design_principle/">Design Principle</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Design_principle/">Design Principle</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/build_blimp/">Build Blimp</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Build Blimp</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#diy-balloon">DIY Balloon</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#materials-preparation">Materials preparation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#manufacture-process">Manufacture process</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/eletronics/">Build Electronics</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../eletronics/">Build Electronics</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/Communication/">Communication</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Communication/">Communication</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/Blimp_code_setup/">Blimp Code Setup</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Blimp_code_setup/">Blimp Code Setup</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/UserInterface/">User interface</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../UserInterface/">User interface</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../User_tutorial/HardwareMapping/">Hardware mapping</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../HardwareMapping/">Hardware mapping</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Developer Tutorial</span></p>
@@ -97,9 +107,9 @@
               </ul>
               <p class="caption"><span class="caption-text">Demos</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../Unit_tests/">Unit Test</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Demo/Unit_tests/">Unit Test</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../Flying_test/">Flying Tests</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Demo/Flying_test/">Flying Tests</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Additional Information</span></p>
@@ -124,7 +134,8 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>DEMO: Sensors</li>
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>User Tutorial &raquo;</li><li>Build Blimp</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -134,10 +145,42 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="demo-sensors">DEMO: Sensors</h1>
+                <h1 id="build-your-blimp">Build Your Blimp</h1>
+<p>To build your blimp, you can not only use the off-the-shelf blimp as shown in the <a href="">Quick Start</a> on the market. You can also have the following options: </p>
+<ul>
+<li>36 inch balloon: <a href="https://www.amazon.com/Baseball-Jumbo-Sports-Party-Balloons/dp/B07G7FDLBG">Sphere shape</a> or <a href="https://www.amazon.com/Balloons-Romantic-Wedding-Decorations-Champagne/dp/B07MCNTC91">Heart shape</a>. These balloon gives you the minimum capacity but the smallest size to hold everything we provided. However, some modification is required to make for it to hold all the payloads.</li>
+<li><a href="">DIY Balloon</a>: This will give you the most freedom of making customized shape of your blimp. </li>
+</ul>
+<h2 id="diy-balloon">DIY Balloon</h2>
+<h3 id="materials-preparation">Materials preparation</h3>
+<p>Before you DIY your own blimp, please prepare the following materials. </p>
+<ul>
+<li>Envelope material: <a href="http://film.fluffyscarsdale.com/home.html">Mylar sheet</a>. If you want to know the reason why we pick Mylar as our first choice, please check <a href="">Different Materials</a>.</li>
+<li>Tools: </li>
+<li><a href="https://www.amazon.com/dp/B09Y38RKKY">Masking/Painter's tape</a>: You can buy these at <a href="https://www.walmart.com/">Walmart</a>, <a href="https://www.homedepot.com/?mtc=SEM-BF-CDP-GGL-Multi-Multi-NA-Multi-NA-ETA-NA-NA-NA-NA-BT1-NA-NA-NA-THD&amp;cm_mmc=SEM-BF-CDP-GGL-Multi-Multi-NA-Multi-NA-ETA-NA-NA-NA-NA-BT1-NA-NA-NA-THD-71700000002449093-58700000047535271-43700003817114565&amp;ds_rl=5041&amp;gclid=Cj0KCQjw2_OWBhDqARIsAAUNTTHLn-O567gAP0e3lxsaA8VB52r3M4EZPugEVE_6Pjh4bXTd3QR3a38aAvqqEALw_wcB&amp;gclsrc=aw.ds">Homedepo</a>, <a href="https://www.target.com/c/baby/-/N-5xtly?clkid=aeb41fc7Ne81511ec9ad3e7b09f34e289&amp;lnm=1337494&amp;afid=Parole%20Paris&amp;ref=tgt_adv_xasd0002">Target</a> or any other store. You may also need some other tape like <a href="https://www.amazon.com/Scotch-Shipping-Packaging-Dispenser-142-6/dp/B000J07BRQ">scotch tape</a>, <a href="https://www.amazon.com/Scotch-Basic-Duct-Rolls-1055-3PK/dp/B01CM2Z4SG">Duct tape</a></li>
+<li>scissors: You need to cut the mylar sheet with it, please do not use knife, it will be easier and safer to cut with scissors.</li>
+<li><a href="https://www.amazon.com/dp/B001BLU4SA">Mylar sealer</a>: This will be the key tool to seal your mylar sheet.</li>
+<li><a href="https://www.amazon.com/gp/product/B0756VKPTB">soldering iron</a>: This will cut out the sealed mylar after you seal it.</li>
+<li><a href="https://www.amazon.com/dp/B079QB239H">parchment paper</a>: This is for isolate your mylar sealer from attaching the mylar directly. You can get this in any super market like Ralphs, Whole Foods and so on.</li>
+<li>Infrastructure: </li>
+<li>Tables: It should be bigger than your DIY balloon size. If one table is not big enough, you can attach two or more tables together.</li>
+<li>Plywood: It really depends on how big you want to make your blimp. If you want to make bigger balloon, you can use <a href="https://www.amazon.com/dp/B085VNQM21">bigger size plywood</a>. It's not necessary to just my link. </li>
+</ul>
+<h3 id="manufacture-process">Manufacture process</h3>
+<p>There are two different ways we've explored to manufacture a balloon that has high quality and less gas leakage problems to worry about in the future:</p>
+<ul>
+<li>Method 1: Double-sided mylar balloon</li>
+<li>Method 2: Starfruit mylar balloon</li>
+</ul>
+<p>Method 1 is most recommended and easier and more friendly to a newbie. </p>
+<p>For method 1, Please check <a href="">Blimp Manufacturing:Mylar Blimp Envelope</a>.</p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Design_principle/" class="btn btn-neutral float-left" title="Design Principle"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../eletronics/" class="btn btn-neutral float-right" title="Build Electronics">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -159,6 +202,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../Design_principle/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../eletronics/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
