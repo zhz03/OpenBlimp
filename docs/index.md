@@ -16,9 +16,9 @@ OpenBlimp is a work in progress. Many features on the roadmap are being continuo
 
 ### Getting Started
 
-- Blimp System Overview
-- Preparation
-- Quick Start
+- [Blimp System Overview](https://zhz03.github.io/OpenBlimp/Blimp_system_overview/)
+- [Preparation](https://zhz03.github.io/OpenBlimp/Preparation/)
+- [Quick Start](https://zhz03.github.io/OpenBlimp/Quick_start/)
 
 ### User Tutorial
 

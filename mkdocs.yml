@@ -11,19 +11,22 @@ theme: readthedocs # rtd-dropdown
 site_name: OpenBlimp
 nav:
 - Getting Started: 
-    - Blimp System Overview: Blimp_system_overview.md
-    - Preparation: Preparation.md
-    - Quick Start: Quick_start.md
+    - Blimp System Overview: getting_started/Blimp_system_overview.md
+    - Preparation: getting_started/Preparation.md
+    - Quick Start: getting_started/Quick_start.md
 - User Tutorial:
-    - Logic Flow: logic_flow.md
-    - Design Principle: Design_principle.md
-    - User interface: UserInterface.md
-    - Hardware mapping: HardwareMapping.md
+    - Logic Flow: User_tutorial/logic_flow.md
+    - Design Principle: User_tutorial/Design_principle.md
+    - Build Blimp: User_tutorial/build_blimp.md
+    - Build Electronics: User_tutorial/eletronics.md
+    - Communication: User_tutorial/Communication.md
+    - Blimp Code Setup: User_tutorial/Blimp_code_setup.md
+    - User interface: User_tutorial/UserInterface.md
+    - Hardware mapping: User_tutorial/HardwareMapping.md
 - Developer Tutorial:
-    - Development logic: Development_logic.md
-    - Communication: Communication.md
-    - Capability extension: Capability.md
-    - Algorithm customization: Algo_custom.md
+    - Development logic: developer_tutorial/Development_logic.md
+    - Capability extension: developer_tutorial/Capability.md
+    - Algorithm customization: developer_tutorial/Algo_custom.md
 - Hardware: 
     - Hardware Introduction: Hardware_intro.md
     - Hardware Manufacture: Hardware_manufact.md
@@ -36,6 +39,6 @@ nav:
     - Unit Test: Demo/Unit_tests.md
     - Flying Tests: Demo/Flying_test.md 
 - Additional Information:
-    - About Us: AboutUs.md
-    - Previous resources: resources.md
-    - How to contribute: How_to_contribute.md
+    - About Us: additional_info/AboutUs.md
+    - Previous resources: additional_info/resources.md
+    - How to contribute: additional_info/How_to_contribute.md
